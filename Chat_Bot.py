@@ -10,7 +10,7 @@ st.markdown("<h2 style='text-align: center; color: black;background-color: white
 
 # Initialize session state with model start chat message
 if 'chat' not in st.session_state:
-    api_key = "AIzaSyBUUejpbU_3eouCT96lkHmkE2mQ6jQb8TU"
+    api_key = "enter_your_api_key_here"
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel('gemini-pro')
     st.session_state.chat = model.start_chat(history=[])
