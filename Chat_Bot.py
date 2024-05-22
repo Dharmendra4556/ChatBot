@@ -71,8 +71,6 @@ st.markdown(f'<div class="chat-date" style="align:center;">{st.session_state.tod
 for message in st.session_state.history:
     st.markdown(f'<div class="message-container"><div class="user-message">{message["user"]}</div></div>', unsafe_allow_html=True)
     st.markdown(f'<div class="message-container"><div class="bot-message">{message["bot"]}</div></div>', unsafe_allow_html=True)
-    #msg = st.chat_message("assistant")
-    #msg.write(message["bot"])
 
 # Function to add message to history
 def add_message(user, bot):
