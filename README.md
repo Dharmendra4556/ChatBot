@@ -7,3 +7,6 @@ This repository contains the code for a chatbot application built using Google G
 - **Interactive UI:** Deployed using Streamlit for a seamless and interactive user interface.
 - **Real-time Conversations:** Supports real-time chat functionality for dynamic user interactions.
 - **Scalable Deployment:** Easy to deploy and scale with Streamlit’s deployment options.
+## Contact
+
+For more information, visit my [LinkedIn profile](https://www.linkedin.com/in/dharmendra-behara-230388239/).
