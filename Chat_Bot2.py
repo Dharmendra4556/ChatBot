@@ -39,5 +39,3 @@ question = st.chat_input("Say something")
 if question:
     handle_question(question)
     st.experimental_rerun()
-
-# finally project completed
